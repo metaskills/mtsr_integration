@@ -20,5 +20,5 @@ group :test do
   # gem 'minitest', '~> 5.0.8'
   # gem 'minitest-focus'
   # gem 'minitest-reporters', '~> 1.0.0.beta3'
-  gem 'minitest-spec-rails', github: 'metaskills/minitest-spec-rails'
+  gem 'minitest-spec-rails'#, github: 'metaskills/minitest-spec-rails'
 end

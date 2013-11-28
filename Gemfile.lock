@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/metaskills/minitest-spec-rails.git
-  revision: 20844999f76fe04e7b4df2f8f7b28e947b90a2b8
-  specs:
-    minitest-spec-rails (5.0.0.pre)
-      minitest (~> 5.0)
-      rails (>= 4.1.0.beta, < 5.0)
-
-GIT
   remote: git://github.com/rails/arel.git
   revision: cd0509d9920ef39a86a5c9781b3f1fe38e3c8068
   specs:
@@ -14,7 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: b2c7d2345f3e862f07212635f2a144873e094521
+  revision: 948c0ff1647eb3dd1b45add0d1748d393cd2fd50
   specs:
     actionmailer (4.1.0.beta)
       actionpack (= 4.1.0.beta)
@@ -38,7 +30,7 @@ GIT
       arel (~> 5.0.0)
     activesupport (4.1.0.beta)
       i18n (~> 0.6, >= 0.6.4)
-      json (~> 1.7)
+      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.0)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
@@ -86,6 +78,9 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (5.0.8)
+    minitest-spec-rails (5.0.0)
+      minitest (~> 5.0)
+      rails (>= 4.1.0.beta, < 5.0)
     multi_json (1.8.2)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -135,7 +130,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
-  minitest-spec-rails!
+  minitest-spec-rails
   rails!
   sass-rails (~> 4.0.0)
   sdoc
