@@ -1,23 +1,23 @@
 GIT
   remote: git://github.com/rails/arel.git
-  revision: cd0509d9920ef39a86a5c9781b3f1fe38e3c8068
+  revision: 5a8b4b462f2e1c55ba492afe1e14e4ed7fcfd40d
   specs:
-    arel (5.0.0.20131118174145)
+    arel (5.0.0.20131204235845)
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 948c0ff1647eb3dd1b45add0d1748d393cd2fd50
+  revision: 6e2b734f56e4c789763b9a8e3922272a004a325f
   specs:
     actionmailer (4.1.0.beta)
       actionpack (= 4.1.0.beta)
       actionview (= 4.1.0.beta)
       mail (~> 2.5.4)
     actionpack (4.1.0.beta)
+      actionview (= 4.1.0.beta)
       activesupport (= 4.1.0.beta)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
     actionview (4.1.0.beta)
-      activemodel (= 4.1.0.beta)
       activesupport (= 4.1.0.beta)
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
@@ -31,7 +31,7 @@ GIT
     activesupport (4.1.0.beta)
       i18n (~> 0.6, >= 0.6.4)
       json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.0)
+      minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     rails (4.1.0.beta)
@@ -65,8 +65,8 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     hike (1.2.3)
-    i18n (0.6.5)
-    jbuilder (1.5.2)
+    i18n (0.6.9)
+    jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
     jquery-rails (3.0.4)
@@ -77,8 +77,8 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.0.8)
-    minitest-spec-rails (5.0.0)
+    minitest (5.1.0)
+    minitest-spec-rails (5.0.1)
       minitest (~> 5.0)
       rails (>= 4.1.0.beta, < 5.0)
     multi_json (1.8.2)
@@ -114,11 +114,11 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (1.3.1)
+    turbolinks (2.0.0)
       coffee-rails
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
-    uglifier (2.3.1)
+    uglifier (2.3.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
