@@ -6,5 +6,12 @@ class UserTest < ActiveSupport::TestCase
     user.email.must_equal email
   end
 
+  context 'mini_shoulda' do
+
+    should 'work' do
+      skip
+    end
+
+  end
 
 end
